@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg container ">
+    <div class="container-fluid">
+      <a [ngStyle]="{'font-weight':fontWeighValue1}" class="navbar-brand" href="#"> <img src="/assets/navbar/Group.svg" alt=""> Personal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-5 gap-md-1 gap-sm-1 gap-xl-5 gap-lg-5" [ngStyle]="{'font-weight':fontWeighValue2}">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Skills</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link active " >Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " >Contact me</a>
+          </li>
+        </ul>
+        <div class="" role="search">
+          <button [ngStyle]="{'background-color':btnBackGroundColor}" class="btn text-white " type="submit">Resume <img src="/assets/navbar/icons8-download-26.png" width="16"  alt=""></button>
+        </div>
+      </div>
+    </div>
+  </nav>

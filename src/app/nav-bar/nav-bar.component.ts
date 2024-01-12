@@ -7,14 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
+  fontWeighValue1 = '900';
 
-  
+  btnBackGroundColor: string = 'black';
 
-
-
-
-
-
-
+  fontWeighValue2 = '600';
 
 }
