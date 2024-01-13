@@ -1,8 +1,12 @@
-.button .hover-border:hover{
-     background-color: rgb(252, 252, 252) !important;
-     color: rgb(2, 2, 2) !important;
+.button .hover-border:hover {
+    background-color: rgb(252, 252, 252) !important;
+    color: rgb(2, 2, 2) !important;
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em rgb(0, 0, 0);
 
-box-shadow: 4px 3px 3px 2px red;
-    width: 200px .5s !important;
-    transition: .5ss;
+}
+
+button .hover-border:active {
+    transform: translate(0.05em, 0.05em) !important;
+    box-shadow: 0.05em 0.05em !important;
 }
