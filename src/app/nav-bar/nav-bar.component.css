@@ -1,0 +1,8 @@
+.button .hover-border:hover{
+     background-color: rgb(252, 252, 252) !important;
+     color: rgb(2, 2, 2) !important;
+
+box-shadow: 4px 3px 3px 2px red;
+    width: 200px .5s !important;
+    transition: .5ss;
+}

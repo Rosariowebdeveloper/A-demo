@@ -1,16 +1,31 @@
-import { Component } from '@angular/core';
+  import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-nav-bar',
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css'
-})
-export class NavBarComponent {
+  @Component({
+    selector: 'app-nav-bar',
+    templateUrl: './nav-bar.component.html',
+    styleUrl: './nav-bar.component.css'
+  })
+  export class NavBarComponent {
 
-  fontWeighValue1 = '900';
+    fontWeighValue1 = '900';
 
-  btnBackGroundColor: string = 'black';
+    btnBackGroundColor: string = 'black';
 
-  fontWeighValue2 = '600';
+    fontWeighValue2 = '600';
 
-}
+  //resumeButtonStyle
+
+  isHover : boolean = false;
+
+  onMouseEnter(){
+    this.isHover = true;
+  }
+  onMouseLeave(){
+    this.isHover = false;
+  }
+
+
+
+
+
+  }
