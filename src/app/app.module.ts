@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ExperienceComponent } from './experience/experience.component';
     NavBarComponent,
     HomePageComponent,
     SkillsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
