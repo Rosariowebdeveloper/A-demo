@@ -1,0 +1,31 @@
+.color1 {
+    background-color: #000;
+    min-height: 100vh;
+    min-width: 100vh;
+
+}
+
+.font {
+    font-weight: 200;
+}
+
+.font1 {
+    font-weight: 900;
+}
+
+.card1 {
+    color: #ffff;
+    background-color: #000 !important;
+    width: 90%;
+    height: 160px;
+    border: 2px solid rgb(163, 161, 161);
+
+}
+
+.card-text {
+    opacity: .5;
+}
+
+.card-text1{
+    opacity: .8;
+}
