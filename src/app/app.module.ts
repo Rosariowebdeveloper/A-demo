@@ -10,6 +10,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { TestimonalComponent } from './testimonal/testimonal.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TestimonalComponent } from './testimonal/testimonal.component';
     ExperienceComponent,
     AboutComponent,
     ProjectComponent,
-    TestimonalComponent
+    TestimonalComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
