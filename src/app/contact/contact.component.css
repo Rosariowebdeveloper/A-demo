@@ -1,6 +1,7 @@
 .container {
     height: 80vh;
-    width: 100%;
+    width: 150%;
+    margin-bottom: 80px !important;
 }
 
 .row {
